@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+body
+{
+    background-image: linear-gradient(to left, #ACF39D, #B0C592);
+    font-family: "Anton SC";
+    font-weight: lighter;
+}
+h1
+{
+    color: rgb(74, 132, 132);
+}
+h1#principal
+{
+    color: black;
+    text-align: center;
+    background-color: #64985a;
+    border-radius: 10px;
+}
+h2
+{
+    color: rgb(72, 72, 165);
+}
+h2.intermediario
+{
+    color: rgb(118, 137, 9);
+}
+h2.avancado
+{
+    color: rgb(157, 10, 10);
+}
+.destaque
+{
+    background-color: beige;
+}
+p
+{
+    padding: 20px;
+}

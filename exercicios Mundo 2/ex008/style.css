@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+h1.cu
+{
+    background-color: aqua;
+}
+h2.primeiro
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2.segundo
+{
+    color: blue;
+}
+div > p
+{
+    display: none;
+}
+div:hover > p
+{
+    display: block;
+    color: blueviolet;
+}
+h1
+{
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: antiquewhite;
+
+    border: 10px solid antiquewhite;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+   margin: auto;
+   
+   outline-width: 5px;
+   outline-style: dashed;
+   outline-color: aqua;
+}
+p
+{
+    padding: 10px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+a
+{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: aqua;
+
+    padding: 3px;
+
+    margin: 10px;
+}

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to left, #D4AFCD , #642CA9 );
+}
+section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background-color: #e6c0df;
+    width: 500px;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;;
+    border-radius: 10px;
+}
+section h2
+{
+    color: black;
+    font-size: 2.5rem;
+    margin: 2rem;
+    text-decoration: overline;
+}
+section form
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form label
+{
+    color: black;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+form input
+{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 1s;
+}
+form input:focus{
+    border-radius: 16px;
+}
+form textarea
+{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 1s;
+}
+form textarea:focus
+{
+    border-radius: 16px;
+}
+form button
+{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+form button:houver
+{
+    background-color: black;
+    border-radius: 16px;
+}

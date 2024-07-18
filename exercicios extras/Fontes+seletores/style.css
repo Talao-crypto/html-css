@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: Foda;
+    src: url(Slugs\ Racer.ttf);
+}
+body
+{
+    background-image: linear-gradient(to left, #CCBCBC, #F1E3E4);
+}
+main
+{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1
+{
+    text-align: center;
+}
+h2
+{
+    text-align: center;
+}
+
+h2.baixadas
+{
+    font-family: Foda;
+    text-align: center;
+    color: #A288A6;
+}
+p.baixadas
+{
+    font-family: Foda;
+    text-align: center;
+    padding: 20px;
+}
+
+h2.importadas
+{
+    font-family: "Roboto Condensed";
+    text-align: center;
+    color: #A288A6;
+}
+p.importadas
+{
+    font-family: "Roboto Condensed";
+    text-align: center;
+    padding: 20px;
+}
+div
+{
+    background-color: rgb(137, 173, 161);
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+}
+div:hover
+{
+    background-color: rgb(179, 179, 179);
+    text-decoration: overline;
+}
+div > p
+{
+    display: none;
+}
+div:hover > p
+{
+    display:block;
+}
+a
+{
+    color: pink;
+    text-decoration: none;
+}
